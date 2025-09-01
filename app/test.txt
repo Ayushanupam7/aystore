@@ -1,0 +1,7 @@
+<LinearGradient colors={['#6200EE', '#3700B3']} style={styles.header}>
+        <ThemedText type="title" style={styles.headerText}>AY Store</ThemedText>
+        <View style={styles.searchContainer}>
+          <Ionicons name="search" size={20} color="#888" style={styles.searchIcon} />
+          <TextInput placeholder="Search apps..." style={styles.searchInput} />
+        </View>
+      </LinearGradient>
